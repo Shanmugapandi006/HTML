@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            text-align: left;
+        }
+     h1 {
+            background: black;
+            color: white;
+            padding: 15px;
+            }
+     .menu {
+            display: grid;
+            grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+     .item {
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+        }
+     .item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+     .veg {
+            background: rgb(53, 156, 74);
+        }
+     .nonveg {
+            background: red;
+        }
+     .drinks {
+            background: skyblue;
+        }
+     .price {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <center><h1>🍽️ Restaurant Menu</h1></center>
+     <h2>🍱VEGETARIAN</h2>
+    <div class="menu">
+    <div class="item veg">
+        <img src="https://myfoodstory.com/wp-content/uploads/2024/10/Dhaba-style-Paneer-Masala-3-1024x1536.jpg" alt="paneer-butter-masala">
+        <h3>Paneer Butter Masala</h3>
+        <p class="price">₹180</p>
+    </div>
+    <div class="item veg">
+        <img src="https://www.yummyfoodrecipes.in/resources/picture/org/Vegetable-Dum-Biryani.jpg" alt="veg Biryani">
+        <h3>Veg Biryani</h3>
+        <p class="price">₹150</p>
+    </div>
+    <h2>🥩NON-VEGETARIAN</h2>
+    <div class="item nonveg">
+        <img src="https://foodlmo.com/wp-content/uploads/2025/02/Image_3-107.png" alt="chicken curry">
+        <h3>Chicken Curry</h3>
+        <p class="price">₹220</p>
+    </div>
+
+    <div class="item nonveg">
+        <img src="https://lakegenevacountrymeats.com/wp-content/uploads/Grilling-Chicken-Breast-1.jpg" alt="Grilled Chicken">
+        <h3>Grilled Chicken</h3>
+        <p class="price">₹250</p>
+    </div>
+    <h2>🥤DRINKS</h2>
+    <div class="item drinks">
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/07/10-Best-Benefits-Of-Mango-Juice.jpg" alt="Mango Juice">
+        <h3>Mango Juice</h3>
+        <p class="price">₹80</p>
+    </div>
+
+    <div class="item drinks">
+        <img src="https://www.thespruceeats.com/thmb/VcxJ-l_sQuQPNrg99ApjEejJoX0=/4074x5220/filters:fill(auto,1)/glass-of-iced-coffee-89004347-5887f9ba3df78c2ccdd16180.jpg" alt="Cold Coffee">
+        <h3>Cold Coffee</h3>
+        <p class="price">₹120</p>
+    </div>
+    
+</div>
+</body>
+</html>
